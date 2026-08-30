@@ -1,0 +1,68 @@
+<!--by using this code we create simple form-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post">
+        <table width="200" align="center">
+            <tr colspan="2">
+                <td>
+                    <h2>Registeration Form</h2>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" name="name" /></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" name="email" /></td>
+            </tr>
+            <tr>
+                <td><label>password:</label></td>
+                <td><input type="password" name="password" /></td>
+            </tr>
+            <tr>
+                <td><label>Phone number:</label></td>
+                <td><input type="number" name="number"></td>
+            </tr>
+            <tr colspan="2">
+                <td><label>ID card:</label></td>
+                <td><input type="checkbox" name="Idcard" />AdharCard</td>
+                <td><input type="checkbox" name="Idcard" />VoterId</td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td><input type="radio" name="gender" />Fe-male</td>
+                <td><input type="radio" name="gender" />Male</td>
+            </tr>
+            <tr>
+                <td><label>Laguages:</label></td>
+                <td><select name="languages">
+                        <option value="Telugu">Telugu</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="English">English</option>
+                        <option value="kannada">Kannada</option>
+                        <option value="other">Other</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Submit the file</label></td>
+                <td><input type="file" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Register" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
